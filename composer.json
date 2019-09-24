@@ -1,0 +1,22 @@
+{
+    "name": "ciaranmcnulty/gherkin-messages-prototype",
+    "type": "library",
+    "require": {
+        "google/protobuf": "^3.9",
+        "ciaranmcnulty/varint" : "dev-master"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ciaran McNulty",
+            "email": "mail@ciaranmcnulty.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cjm\\Gherkin\\" : "src",
+            "Io\\Cucumber\\Messages\\" : "proto/Io/Cucumber/Messages",
+            "GPBMetadata\\" : "proto/GPBMetadata"
+        }
+    }
+}
